@@ -60,7 +60,7 @@ The final dataset contains **2,576 township-year observations** covering **368 t
 
 ---
 
-## Selected Visualizations
+## Visualizations
 
 ### Air Pollution Distribution
 
