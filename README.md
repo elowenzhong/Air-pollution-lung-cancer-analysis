@@ -37,17 +37,16 @@ The final dataset contains **2,576 township-year observations** covering **368 t
 
 ## Analysis Workflow
 
-`Data Cleaning & Integration`
-→ `Spatial Prediction`
-→ `Model Evaluation`
-→ `Statistical Modeling`
-→ `Visualization & Interpretation`
-
-- Integrated and processed multi-source data into a unified township-level structure.
-- Applied spatial prediction methods to estimate township-level air pollution concentrations.
-- Evaluated prediction performance using **LOOCV** and **MSE**.
-- Applied Poisson rate and Bayesian STVC models to examine the relationship between air pollution and lung cancer incidence.
-- Visualized spatial patterns and regional differences in model estimates.
+- ** Data Cleaning & Integration ** 
+  Integrated and processed multi-source data into a unified township-level structure.
+- ** Spatial Prediction **
+  Applied spatial prediction methods to estimate township-level air pollution concentrations.
+- ** Model Evaluation **
+  Evaluated prediction performance using **LOOCV** and **MSE**.
+- ** Statistical Modeling **
+  Applied Poisson rate and Bayesian STVC models to examine the relationship between air pollution and lung cancer incidence.
+- ** Visualization & Interpretation **
+  Visualized spatial patterns and regional differences in model estimates.
 
 ---
 
