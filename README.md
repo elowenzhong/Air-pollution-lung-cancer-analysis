@@ -34,6 +34,7 @@ The final dataset contains **2,576 township-year observations** covering **368 t
 - R-INLA
 
 ---
+
 ## Analysis Workflow
 
 - **Data Cleaning & Integration**  
@@ -64,27 +65,9 @@ The final dataset contains **2,576 township-year observations** covering **368 t
 
 ## Visualizations
 
-### Air Pollution Distribution
-
-<!-- ![Air Pollution Distribution](figures/air_pollution_distribution.png) -->
-
-Township-level geographic distribution of air pollution concentrations.
-
-### Spatial Prediction Results
-
-<!-- ![Spatial Prediction](figures/spatial_prediction.png) -->
-
-Comparison and visualization of township-level air pollution predictions.
-
-### Spatiotemporal Model Results
-
-<!-- ![STVC Results](figures/stvc_results.png) -->
-
-Spatial patterns of estimated pollutant effects from the Bayesian STVC model.
 
 ---
 
 ## Data Availability
 
 The original research datasets are not included due to data access and research restrictions. This repository presents selected code, analytical workflows, and results for portfolio purposes.
-
