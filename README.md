@@ -6,72 +6,83 @@
 
 This project is based on my master's research in Statistics at National Dong Hwa University.
 
-The study integrates multiple data sources, including air pollution, population, lung cancer incidence, smoking prevalence, and geographic information. The final dataset contains 2,576 township-year observations covering 368 townships in Taiwan over a seven-year period.
+The study integrates multiple data sources, including air pollution, population demographics (population size and age structure), lung cancer incidence, smoking prevalence, and geographic information. The datasets were cleaned, processed, and merged into a unified township-level dataset.
 
-The project focuses on data preprocessing, spatial prediction, statistical modeling, model evaluation, and spatial visualization to investigate the spatiotemporal relationship between air pollution and lung cancer incidence.
+The final dataset contains **2,576 township-year observations** covering **368 townships over seven years**.
 
-## Tech Stack
+---
+
+## Tools & Methods
 
 **Programming**
 - Python
 - R
 
-**Spatial Analysis and Statistical Modeling**
-- Ordinary Kriging
-- Universal Kriging (Random forest)
-- Bayesian Spatiotemporal Varying Coefficient Model (STVC)
-- Poisson Rate Model
+**Data Processing**
+- Multi-source data cleaning and integration
+- Missing value handling
 
-**Visualization**
-- ggplot2
-- Spatial visualization
+**Spatial Analysis & Prediction**
+- Ordinary Kriging
+- Universal Kriging
+- Random Forest-based Regression Kriging
+- Leave-One-Out Cross-Validation (LOOCV)
+
+**Statistical Modeling**
+- Poisson Data Rate Model
+- Bayesian Spatiotemporal Varying Coefficient Model (STVC)
+- R-INLA
+
+---
 
 ## Analysis Workflow
 
-1. **Data Cleaning & Integration**
-   - Integrated data from multiple sources
-   - Handled missing values and prepared township-level data
+`Data Cleaning & Integration`
+→ `Spatial Prediction`
+→ `Model Evaluation`
+→ `Statistical Modeling`
+→ `Visualization & Interpretation`
 
-2. **Spatial Prediction**
-   - Applied Kriging and Random Forest-based approaches to estimate air pollution concentrations across townships
+- Integrated and processed multi-source data into a unified township-level structure.
+- Applied spatial prediction methods to estimate township-level air pollution concentrations.
+- Evaluated prediction performance using **LOOCV** and **MSE**.
+- Applied Poisson rate and Bayesian STVC models to examine the relationship between air pollution and lung cancer incidence.
+- Visualized spatial patterns and regional differences in model estimates.
 
-3. **Model Evaluation**
-   - Compared spatial prediction methods using cross-validation and prediction error metrics
-
-4. **Statistical Modeling**
-   - Applied Poisson rate models to examine associations between air pollutants and lung cancer incidence
-   - Used Bayesian STVC models to investigate spatial and temporal variation in pollutant effects
-
-5. **Visualization & Interpretation**
-   - Visualized geographic patterns of air pollution and model estimates
-   - Examined regional differences in estimated pollutant effects
+---
 
 ## Key Results
 
-- Built a township-level spatiotemporal dataset covering 368 townships and seven years.
+- Built a spatiotemporal dataset covering **368 townships over seven years**.
 - Compared multiple spatial prediction approaches for estimating township-level air pollution concentrations.
-- Identified spatial and temporal heterogeneity in the estimated associations between air pollutants and lung cancer incidence.
-- Produced spatial visualizations to support interpretation of regional patterns and model results.
+- Examined spatial and temporal heterogeneity in the estimated associations between air pollutants and lung cancer incidence.
+- Visualized regional patterns to support interpretation of model results.
+
+---
 
 ## Selected Visualizations
 
-Selected figures from the analysis will be presented here.
+### Air Pollution Distribution
 
-<!-- Example:
-![Air Pollution Distribution](figures/air_pollution_distribution.png)
-![Spatial Prediction](figures/spatial_prediction.png)
-![STVC Results](figures/stvc_results.png)
--->
+<!-- ![Air Pollution Distribution](figures/air_pollution_distribution.png) -->
 
-## Repository Structure
+Township-level geographic distribution of air pollution concentrations.
 
-```text
-air-pollution-lung-cancer-analysis/
-├── README.md
-├── code/
-│   ├── data_preprocessing/
-│   ├── spatial_prediction/
-│   └── statistical_modeling/
-├── figures/
-└── data/
-    └── README.md
+### Spatial Prediction Results
+
+<!-- ![Spatial Prediction](figures/spatial_prediction.png) -->
+
+Comparison and visualization of township-level air pollution predictions.
+
+### Spatiotemporal Model Results
+
+<!-- ![STVC Results](figures/stvc_results.png) -->
+
+Spatial patterns of estimated pollutant effects from the Bayesian STVC model.
+
+---
+
+## Data Availability
+
+The original research datasets are not included due to data access and research restrictions. This repository presents selected code, analytical workflows, and results for portfolio purposes.
+
