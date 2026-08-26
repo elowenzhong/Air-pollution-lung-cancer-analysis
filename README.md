@@ -72,7 +72,7 @@ The final dataset contains **2,576 township-year observations** covering **368 t
   </tr>
   <tr>
     <td>
-      <img src="https://github.com/user-attachments/assets/2c80a577-d040-4892-865c-7665dfe1ec56" width="100%" alt="PM2.5 Distribution">
+      <img src="https://github.com/user-attachments/assets/2c80a577-d040-4892-865c-7665dfe1ec56" width="90%" alt="PM2.5 Distribution">
     </td>
     <td>
       <img src="https://github.com/user-attachments/assets/55755267-f37c-4112-bbd7-ce095a39751f" width="100%" alt="NO2 Distribution">
