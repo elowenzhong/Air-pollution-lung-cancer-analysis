@@ -65,6 +65,7 @@ The final dataset contains **2,576 township-year observations** covering **368 t
 
 ## Visualizations
 ### Air Pollution Distribution
+Township-level spatial distribution of air pollution concentrations across Taiwan.
 <table>
   <tr>
     <td align="center"><b>PM2.5</b></td>
@@ -78,6 +79,55 @@ The final dataset contains **2,576 township-year observations** covering **368 t
       <img src="https://github.com/user-attachments/assets/55755267-f37c-4112-bbd7-ce095a39751f" width="100%" alt="NO2 Distribution">
     </td>
   </tr>
+</table>
+
+### Bayesian STVC Results
+
+Spatial variation in the estimated associations between air pollutants and lung cancer incidence based on the Bayesian STVC model.
+
+<table>
+  <thead>
+    <tr>
+      <th></th>
+      <th align="center">PM2.5</th>
+      <th align="center">NO2</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td align="center"><b>LUNG</b></td>
+      <td align="center">
+        <img src="https://github.com/user-attachments/assets/91f633a9-5a11-403e-8470-cb363e1e66c4"
+             width="97%" alt="LUNG - PM2.5">
+      </td>
+      <td align="center">
+        <img src="https://github.com/user-attachments/assets/addac14b-b06c-4972-8f08-33dadd45a639"
+             width="100%" alt="LUNG - NO2">
+      </td>
+    </tr>
+    <tr>
+      <td align="center"><b>ADC</b></td>
+      <td align="center">
+        <img src="https://github.com/user-attachments/assets/3a6b1e66-b198-4509-911f-a1028bcfb3bc"
+             width="97%" alt="ADC - PM2.5">
+      </td>
+      <td align="center">
+        <img src="https://github.com/user-attachments/assets/ee6b1fb1-1b7f-4329-9971-799c1a3abda0"
+             width="100%" alt="ADC - NO2">
+      </td>
+    </tr>
+    <tr>
+      <td align="center"><b>SCC</b></td>
+      <td align="center">
+        <img src="https://github.com/user-attachments/assets/0f0591ad-ae31-496f-8b7b-1eb4edffaf03"
+             width="97%" alt="SCC - PM2.5">
+      </td>
+      <td align="center">
+        <img src="https://github.com/user-attachments/assets/199755bb-406b-41d3-93f2-af195d76d7de"
+             width="100%" alt="SCC - NO2">
+      </td>
+    </tr>
+  </tbody>
 </table>
 
 ---
