@@ -64,7 +64,11 @@ The final dataset contains **2,576 township-year observations** covering **368 t
 ---
 
 ## Visualizations
-
+### Air Pollution Distribution
+#### PM_{2.5}
+<img width="4377" height="5152" alt="99-105_PM2 5_5y_Average_town" src="https://github.com/user-attachments/assets/2c80a577-d040-4892-865c-7665dfe1ec56" />
+#### NO_{2}
+<img width="4376" height="5152" alt="99-105_NO2_5y_Average_town" src="https://github.com/user-attachments/assets/55755267-f37c-4112-bbd7-ce095a39751f" />
 
 ---
 
