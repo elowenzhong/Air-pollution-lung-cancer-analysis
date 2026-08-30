@@ -15,8 +15,10 @@ The final dataset contains **2,576 township-year observations** covering **368 t
 ## Tools & Methods
 
 **Programming**
-- Python
-- R
+- **Python**  
+  <sub>Data preprocessing, spatial prediction, model evaluation, and geospatial visualization</sub>
+- **R**  
+  <sub>Statistical modeling and geospatial visualization</sub>
 
 **Data Processing**
 - Multi-source data cleaning and integration
